@@ -7,7 +7,7 @@ Scale from a single developer and server to 100s of engineering teams and 10,000
    - C89 base depending on each OS's crypto and network lib [libacquire](https://github.com/offscale/libacquire);
    - [rvm](https://rvm.io)/[nvm](https://github.com/nvm-sh/nvm) style cross-platform package managers
       - [postgres-version-manager-go](https://github.com/offscale/postgres-version-manager-go) in Go
-      - ["version-manager-rs" suffixed](https://github.com/orgs/offscale/repositories?q=-version-manager-rs&language=rust) Rust crates
+      - ["version-manager-rs" suffixed](https://github.com/orgs/offscale/repositories?q=-version-manager-rs&language=rust) and [verman-schema-rs](https://github.com/verman-io/verman-schema-rs) Rust crates
 
 | Purpose                                                                  | Repo                                                   |
 | ------------------------------------------------------------------------ | ------------------------------------------------------ |
