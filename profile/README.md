@@ -1,5 +1,40 @@
 Scale from a single developer and server to 100s of engineering teams and 10,000 nodes.
 
+```mermaid
+graph TD
+    subgraph Deployment
+        cloud("Cloud (AWS; Azure; Google; ...)")
+        native("Native (Windows; Linux; UNIX; ...)")
+        vm("VMs; Docker; …")
+        wasm("WASM")
+    end
+
+    subgraph ML
+        ml_python("Python compiler")
+    end
+```
+
+```mermaid
+graph TD
+    subgraph Frontend
+        android["Android (Kotlin [KMP])"]
+        ios("iOS (Swift / KMP)")
+        desktop("Desktop (KMP)")
+        web("Web (KMP)")
+        cli("CLI")
+        sdk("SDK (C)")
+    end
+
+    subgraph Backend
+        c("C")
+        python("Python")
+        rust("Rust")
+        typescript("TypeScript")
+    end
+
+    Backend <-->|OpenAPI compilers| Frontend
+```
+
 ### Deploy at any scale
 *From one [e.g., embedded] device to 10,000 servers:*
  - [old] 59+ Python repos with ["off" prefix](https://github.com/offscale?q=off&language=python);
