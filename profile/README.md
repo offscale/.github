@@ -100,7 +100,7 @@ Compilers to automatically translate—within and—between:
 | Java (Android)       | [cdd-java](https://github.com/offscale/cdd-java)       |
 | Kotlin (Android)     | [cdd-kotlin](https://github.com/offscale/cdd-kotlin)   |
 | Swift (iOS)          | [cdd-swift](https://github.com/offscale/cdd-swift-ios) |
-| TypeScript (Angular) | [cdd-ts-ng](https://github.com/offscale/cdd-ts-ng)     |
+| TypeScript (Angular) | [cdd-ts-ng](https://github.com/offscale/cdd-web-ng)     |
 | Rust                 | [cdd-rust](https://github.com/offscale/cdd-rust)       |
 
 #### Competitive advantage
